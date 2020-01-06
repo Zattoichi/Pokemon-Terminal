@@ -10,4 +10,9 @@ class Pokemon{
 
   }
 
+  void evolve(){
+
+    
+  }
+
 }
