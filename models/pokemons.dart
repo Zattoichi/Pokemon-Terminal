@@ -14,6 +14,6 @@ class Pokemon{
 
 
   }
-
+//Construtor serve para poder usar o objeto em outros lugares 
   Pokemon(this.nome, this.pokedexIndex, this.abilities);
 }
