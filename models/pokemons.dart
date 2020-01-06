@@ -5,7 +5,7 @@ class Pokemon{
   List abilities;
 
 
-  void skills(){
+  void attack(){
     
 
   }
