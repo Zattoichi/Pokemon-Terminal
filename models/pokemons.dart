@@ -15,5 +15,5 @@ class Pokemon{
 
   }
 
-  Pokemon(this.abilities, this.pokedexIndex, this.nome);
+  Pokemon(this.nome, this.pokedexIndex, this.abilities);
 }
