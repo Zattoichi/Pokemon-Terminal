@@ -1,7 +1,7 @@
 
 class Pokemon{
   String nome;
-  int pokedex;
+  int pokedexIndex;
   List abilities;
 
 
@@ -12,7 +12,8 @@ class Pokemon{
 
   void evolve(){
 
-    
+
   }
 
+  Pokemon(this.abilities, this.pokedexIndex, this.nome);
 }
