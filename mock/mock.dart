@@ -2,7 +2,7 @@ import '../models/pokemons.dart';
 //Instanciar é criar uma classe de um objeto
 class Mock{
   List<Pokemon> pokemonsList = [
-    new Pokemon("Ivysaur ", 2, ["Chlorophyll","Overgrow"]),
+    new Pokemon("Ivysaur", 2, ["Chlorophyll","Overgrow"]),
     new Pokemon("Charmander", 4, ["Solar-power","Blaze"]),
     new Pokemon("Squirtle", 7, ["Rain-dish","Torrent"]),
     new Pokemon("Caterpie", 10, ["Run-away","Shield-dust"]),
@@ -22,7 +22,5 @@ class Mock{
     new Pokemon("Venonat", 48, ["Run-away","Tinted-lens","Compound-eyes"]),
     new Pokemon("Diglett", 50, ["Sand-force","Arena-trap","Sand-veil"]),
     new Pokemon("Persian", 53, ["Unnerve","Technician","Limber"]),
-
-
   ];
 }
