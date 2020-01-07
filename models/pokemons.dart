@@ -20,7 +20,6 @@ class Pokemon{
   // toString = descrição do objeto 
   String toString() {
     return "Index: ${this.pokedexIndex}, Nome: ${this.nome}, Habilidades: ${this.abilities}";
-
   }
 
 }
