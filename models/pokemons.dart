@@ -14,6 +14,13 @@ class Pokemon{
 
 
   }
-//Construtor serve para poder usar o objeto em outros lugares 
+  //Construtor serve para poder usar o objeto em outros lugares 
   Pokemon(this.nome, this.pokedexIndex, this.abilities);
+
+  // toString = descrição do objeto 
+  String toString() {
+    return "Index: ${this.pokedexIndex}, Nome: ${this.nome}, Habilidades: ${this.abilities}";
+
+  }
+
 }
