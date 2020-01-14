@@ -12,7 +12,7 @@ class Pokemon{
   String toString() {
     return "Index: ${this.pokedexIndex}, Nome: ${this.nome}, Habilidades: ${this.abilities}";
   }
-
+  //Factory o objeto a partir do json
   factory Pokemon.fromJson(Map<String, dynamic> json){
     return Pokemon(
       nome: json['forms'][0]['name'],
