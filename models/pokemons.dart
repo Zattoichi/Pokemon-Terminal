@@ -5,7 +5,7 @@ class Pokemon{
   List abilities;
 
   //Construtor serve para poder usar o objeto em outros lugares 
-  Pokemon(this.nome, this.pokedexIndex, this.abilities);
+  Pokemon({this.nome, this.pokedexIndex, this.abilities});
 
   // toString = descrição do objeto 
   String toString() {
