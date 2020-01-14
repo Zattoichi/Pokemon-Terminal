@@ -1,4 +1,9 @@
+import 'services/api.dart';
+
 void main(List<String> args) {
 
-print()
+  APIService apiservice = APIService();
+
+  apiservice.fetchApi(args[0]);
+
 }
