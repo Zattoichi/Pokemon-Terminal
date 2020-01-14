@@ -13,4 +13,12 @@ class Pokemon{
     return "Index: ${this.pokedexIndex}, Nome: ${this.nome}, Habilidades: ${this.abilities}";
   }
 
+  factory Pokemon.fromJson(Map<String, dynamic> json){
+    return Pokemon(
+      nome: json['forms'][0]['name'],
+      pokedexIndex: json['game_indices'][0]['game_index'],
+      abilities: json['abilities']
+
+    );
+  }
 }
