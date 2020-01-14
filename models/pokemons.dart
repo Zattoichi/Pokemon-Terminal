@@ -10,7 +10,7 @@ class Pokemon{
   // toString = descrição do objeto 
   // $ <-- Pede o valor da variavel e coloca em uma string
   String toString() {
-    return "Index: ${this.pokedexIndex}, Nome: ${this.nome}, Habilidades: ${this.abilities}";
+    return "Index: ${this.pokedexIndex}\nNome: ${this.nome}\nHabilidades: ${this.abilities}";
   }
   //Factory o objeto a partir do json
   factory Pokemon.fromJson(Map<String, dynamic> json){
